@@ -14,108 +14,212 @@
 </head>
 
 <body class="bg-white">
-<!------navbar-->
-  <nav class="shadow-md mb-10">
-    <div class="max-w-7xl mx-auto px-6 ">
+    <!-- Navbar -->
+  <nav class="bg-green-600 text-white px-6 py-5 mb-10">
 
-      <div class="flex justify-between items-center h-16">
+    <div class="max-w-7xl mx-auto flex items-center justify-between ">
 
+      
+      <div class="text-3xl font-bold">
 
-        <div class="text-sm font-bold text-gray-800 ">
-          PIGFARM
-        </div>
+        PigFarm
 
-        <!-- Desktop Menu -->
-        <div class="hidden md:flex  space-x-8 items-center">
-          <a href="#" class="text-gray-600 hover:text-black">Home</a>
-          <a href="#" class="text-gray-600 hover:text-black">About</a>
-          <a href="#" class="text-gray-600 hover:text-black">Accommodation</a>
-          <a href="#" class="text-gray-600 hover:text-black">Farm Tours</a>
-          <a href="#" class="text-gray-600 hover:text-black">Contact Us</a>
-          <a href="#" class="text-gray-600 hover:text-black">Gallery</a>
+      </div>
 
+      <!-- Desktop Menu -->
+      <ul class="hidden lg:flex items-center gap-8">
 
-        </div>
+        <li>
+          <a href="#" class="hover:text-green-400">
+            Home
+          </a>
+        </li>
 
+        <li>
+          <a href="#" class="hover:text-green-400">
+            About
+          </a>
+        </li>
 
+        <li>
+          <a href="#" class="hover:text-green-400">
+            Acoomodation
+          </a>
+        </li>
 
-        <!-- Hamburger Button -->
-        <div class="block md:hidden ">
-          <button id="menu-btn" class="flex flex-col space-y-1 ">
-            <span class="w-6 h-0.5 bg-black"></span>
-            <span class="w-6 h-0.5 bg-black"></span>
-            <span class="w-6 h-0.5 bg-black"></span>
-          </button>
-        </div>
-        <button class="bg-green-600 px-8 py-4 rounded-2xl mr-2 ">
-          <div class="flex space-x-4"><span> <a href="#" class="text-gray-600 hover:text-black">
+        <li>
+          <a href="#" class="hover:text-green-400">
+            Farm Tours
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="hover:text-green-400">
+            Contact us
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="hover:text-green-400">
+            Gallery
+          </a>
+        </li>
+
+      </ul>
+
+     
+
+        <!-- Hamburger Menu -->
+        <button
+          id="menu-btn"
+          class="lg:hidden flex flex-col gap-1">
+
+          <span class="w-7 h-1 bg-white rounded"></span>
+          <span class="w-7 h-1 bg-white rounded"></span>
+          <span class="w-7 h-1 bg-white rounded"></span>
+
+        </button>
+         <!-- Right Side -->
+      <div class="flex items-center gap-4">
+
+        <!-- Button -->
+        <button class="bg-green-200 px-6 py-4 rounded-2xl  ">
+          <div class="flex space-x-2"><span> <a href="#" class="text-gray-600 hover:text-black">
                 book now </a></span>
             <span><i class="fa-solid fa-bag-shopping"></i></span>
           </div>
         </button>
 
-
       </div>
+
     </div>
 
     <!-- Mobile Menu -->
-    <div id="menu" class="hidden md:hidden px-6 pb-4">
-      <a href="#Home" class="block py-2 text-gray-600">Home</a>
-      <a href="#project" class="block py-2 text-gray-600">About</a>
-      <a href="#contact" class="block py-2 text-gray-600">Accomodation</a>
-      <a href="#contact" class="block py-2 text-gray-600">Farm Tours</a>
-      <a href="#contact" class="block py-2 text-gray-600">contact us</a>
-      <a href="#contact" class="block py-2 text-gray-600">Gallery</a>
+    <div
+      id="mobile-menu"
+      class="hidden lg:hidden mt-6 flex flex-col gap-5 bg-gray-900 p-6 rounded-2xl">
 
+      <a href="#" class="hover:text-green-400">
+        Home
+      </a>
+
+      <a href="#" class="hover:text-green-400">
+        About
+      </a>
+
+      <a href="#" class="hover:text-green-400">
+        Acoomodation
+      </a>
+
+      <a href="#" class="hover:text-green-400">
+        Farm Tours
+      </a>
+
+      <a href="#" class="hover:text-green-400">
+        contact us
+      </a>
+
+      <a href="#" class="hover:text-green-400">
+        Gallery
+      </a>
+
+      
 
     </div>
-
 
   </nav>
-  <!-----hero page-->
-  <div class="max-w-7xl mx-auto px-6 mb-40">
-    <div class="flex flex-col md:flex-row justify-between items-center space-y-6 ">
+  
+
+
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center px-6 py-16 mb-20">
+
+    <!-- Container -->
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+      <!-- Left Column -->
       <div>
-        <h1 class="text-center mr-2">Pig farming contributes greatly to the<br> economy by supplying pork <br>to markets, restaurants, and food<br>
-          industries.
-          It also creates business <br>opportunities for farmers and meat<br> sellers.
-          With proper care and modern <br>farming methods, pig farming <br>can be a profitable and sustainable<br> agricultural
-          business.</h1>
-        <div class="mt-10 space-x-2 mr-2">
-          <button class="bg-green-600 px-6 py-4 rounded-2xl ">
-            
-              <span> <a href="#" class="text-gray-600 hover:text-black">
-                  book now </a></span>
-              <span><i class="fa-solid fa-bag-shopping"></i></span>
-            
+
+        <p class="text-green-500 font-semibold uppercase tracking-widest mb-4">
+          Welcome To Pig Farm
+        </p>
+
+        <h1 class="text-5xl lg:text-7xl font-bold leading-tight text-black mb-6">
+
+          Healthy Farming <br>
+          Starts Here
+
+        </h1>
+
+        <p class="text-gray-600 text-lg leading-8 mb-8">
+
+          We provide quality livestock farming with healthy feeding,
+          proper animal care, and sustainable agricultural practices.
+
+        </p>
+
+        <!-- Buttons -->
+        <div class="flex flex-wrap gap-4">
+
+          <button
+            class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-2xl font-semibold">
+
+            Book now
+
           </button>
-          <button class="bg-transparent border border-green-600  px-6 py-4 rounded-2xl"> <a href="#"
-              class="text-gray-600 hover:text-black">
-              Learn more</a></button>
+
+          <button
+            class="border-2 border-black px-8 py-4 rounded-2xl font-semibold hover:bg-black hover:text-white transition">
+
+            Learn More
+
+          </button>
+
         </div>
+
       </div>
 
-      <div class="mr-4" style="clip-path: polygon(
-      15% 0%,
-      100% 0%,
-      100% 80%,
-      90% 100%,
-      75% 88%,
-      60% 100%,
-      45% 88%,
-      30% 100%,
-      15% 88%,
-      0% 100%,
-      0% 15%
-    );"><img src="./img/download (5).jfif"></div>
+      <!-- Right Column -->
+      <div class="relative flex justify-center">
+
+        <!-- Main Image -->
+        <div
+          class="w-87.5 h-125 overflow-hidden shadow-2xl"
+          style="clip-path: polygon(
+            15% 0%,
+            100% 0%,
+            100% 100%,
+            85% 88%,
+            70% 100%,
+            55% 88%,
+            40% 100%,
+            25% 88%,
+            10% 100%,
+            0% 88%,
+            0% 15%
+          );">
+
+          <img
+            src="./img/download (5).jfif"
+            class="w-full h-full object-cover">
+
+        </div>
+
+       
+      </div>
+
     </div>
 
-  </div>
-  <!---hero page 2-->
+  </section>
+
+<!---hero page 2-->
+   
+
   <div class="h-100 bg-[url('/img/veronica-white-ZuixmDWAHq8-unsplash.jpg')] bg-cover relative bg-center mb-10 w-full" 
     >
     <div class="max-w-7xl mx-auto px-6  mb-8    ">
-      <div class="flex  justify-between items-center mr-4">
+      <div class="flex  justify-center items-center gap-2">
 
         <div class=" bg-green-400 h-50 w-50 relative flex justify-center items-center -mt-20 " style="clip-path: polygon(
       15% 0%,
@@ -198,15 +302,16 @@
     </div>
   </div>
 
-  <!------what we offer-->
+   <!------what we offer-->
   <div class="flex justify-center items-center mb-8 ">
     <h1 class="text-center text-2xl mr-4">what we offer to you</h1>
   </div>
-  <!----first set of cards-->
-  <div class="max-w-7xl mx-auto px-6 mb-4">
+<!------ first set cards-->
+
+ <div class="max-w-7xl mx-auto px-6 mb-4">
 
 
-    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4">
+    <div class="flex justify-center flex-col md:flex-row items-center gap-2">
       <div class="relative flex justify-center items-center">
         <img src="./img/WhatsApp Image 2026-05-18 at 22.27.55.jpeg" class="h-50 w-75 " style="clip-path: polygon(
       15% 0%,
@@ -282,11 +387,10 @@
 
     </div>
   </div>
-
   <!-------second set of cards-->
   <div class="max-w-7xl mx-auto px-6 mb-10">
 
-    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4">
+    <div class="flex justify-center flex-col md:flex-row items-center gap-2">
       <div class="relative flex justify-center items-center"><img src="./img/Criadero de cerdos.jfif" class="h-50 w-75"
           style="clip-path: polygon(
       15% 0%,
@@ -362,15 +466,16 @@
 
     </div>
   </div>
-  <!------recent happenings-->
+
+ <!------recent happenings-->
   <div class="flex flex-col justify-center items-center mb-10">
-    <h1 class="text-xl mr-4">RECENTLY FARM TOUR</h1>
-    <p class="mr-4">We invite you to come and pay us a visit.</p>
+    <h1 class="text-xl">RECENTLY FARM TOUR</h1>
+    <p >We invite you to come and pay us a visit.</p>
   </div>
   <!-------third set of cards-->
   <div class="max-w-7xl mx-auto px-6 mb-4">
 
-    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4 ">
+    <div class="flex justify-center flex-col md:flex-row items-center gap-2 ">
       <div><img src="./img/download (6).jfif" class="h-100 w-100 mb-10" style="clip-path: polygon(
       15% 0%,
       100% 0%,
@@ -413,19 +518,22 @@
 
     </div>
   </div>
+
   <!-------two arrows-->
-  <div class="flex justify-center items-center space-x-6 mb-10 mr-4">
+  <div class="flex justify-center items-center gap-2 mb-10 ">
     <i class="fa-solid fa-circle-arrow-right text-5xl"></i>
     <i class="fa-solid fa-circle-arrow-left text-5xl"></i>
   </div>
+
   <!------Gallery room-->
   <div class="flex flex-col justify-center items-center mb-6">
-    <h1 class="text-xl mr-4">Our Gallery Room</h1>
+    <h1 class="text-xl">Our Gallery Room</h1>
   </div>
+
   <!------fourth sets of cards-->
   <div class="max-w-7xl mx-auto px-6 ">
 
-    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4">
+    <div class="flex justify-center flex-col md:flex-row items-center gap-2">
       <div><img src="./img/pig.jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
       15% 0%,
       100% 0%,
@@ -455,10 +563,9 @@
 
     </div>
   </div>
-
   <div class="max-w-7xl mx-auto px-6 mb-4">
 
-    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4 ">
+    <div class="flex justify-center flex-col md:flex-row items-center">
       <div><img src="./img/farm animals.jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
       0% 0%,
       100% 0%,
@@ -488,17 +595,18 @@
 
     </div>
   </div>
-  <!----- empty boxes-->
-  <div class="flex justify-center items-center space-x-6 mb-10 mr-4">
+
+   <!----- empty boxes-->
+  <div class="flex justify-center items-center gap-2 mb-10 ">
     <i class="fa-regular fa-square rounded"></i>
     <i class="fa-regular fa-square rounded"></i>
     <button class="bg-green-400 rounded px-3 py-2"> </button>
   </div>
 
   <!------fifth card-->
-  <div class="max-w-7xl mx-auto px-6 mb-16 ">
+   <div class="max-w-7xl mx-auto px-6 mb-20 ">
 
-    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 ">
+    <div class="flex justify-center flex-col md:flex-row items-center gap-2 ">
       <div class="h-120 w-100 mb-10 bg-green-600 relative flex justify-center items-center " style="clip-path: polygon(
       15% 0%,
       100% 0%,
@@ -512,10 +620,10 @@
       0% 100%,
       0% 15%
     );">
-        <h1 class="-mt-80 font-extrabold text-white text-center text-2xl absolute mr-4">PIG FARM</h1>
-        <p class="text-center absolute -mt-60 mr-4">Here we are waiting for you to talk!<br>Let's start with us.</p>
+        <h1 class="-mt-80 font-extrabold text-white text-center text-2xl absolute ">PIG FARM</h1>
+        <p class="text-center absolute -mt-60 ">Here we are waiting for you to talk!<br>Let's start with us.</p>
         <div
-          class="bg-transparent border border-white h-40 w-60 absolute rounded flex flex-col justify-center items-center mr-4">
+          class="bg-transparent border border-white h-40 w-60 absolute rounded flex flex-col justify-center items-center ">
           <div class="space-x-4">
             <span><i class="fa-solid fa-phone"></i></span>
             <span>08169270270</span>
@@ -530,31 +638,37 @@
           </div>
         </div>
       </div>
-      <div class="h-120 w-200 mb-10 bg-white shadow-2xl relative ">
-        <h1 class="font-bold text-green-500  text-2xl absolute mb-20 ml-62  ">feeling stressed?</h1>
-        <p class="mt-10 mb-10 ml-62">Get in touch now<br> and we can arrange a no<br> obligation free chat.</p>
-        <div class="absolute ml-62 -mt-5 flex flex-col md:flex-row  gap-2 mb-10">
-          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
-            <h1 class="absolute left-0 top-0 mt-1 ml-2">Name</h1>
-          </button>
-          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
-            <h1 class="absolute left-0 top-0 mt-1 ml-2">phone</h1>
-          </button>
+      <div class="h-120 w-100 mb-10 bg-white shadow-2xl relative flex flex-col justify-center items-center ">
+        <h1 class="text-green-400 -mt-10 ">feeling stressed?</h1>
+<p class="mb-4" >Get in touch now<br> and we can arrange a no<br> obligation free chat.</p>
+ 
+
+  <!-- Name Input -->
+  <input
+    type="text"
+    placeholder="Enter your name"
+    class=" mb-1 border-2 border-gray-300 px-3 py-2 rounded-2xl outline-none focus:border-green-500">
+    <input
+    type="text"
+    placeholder="phone number"
+    class="mb-1 border-2 border-gray-300 px-3 py-2 rounded-2xl outline-none focus:border-green-500">
+    <input
+    type="text"
+    placeholder="Enter your email"
+    class=" mb-1 border-2 border-gray-300 px-3 py-2 rounded-2xl outline-none focus:border-green-500">
+    <input
+    type="text"
+    placeholder=" farm name"
+    class="mb-1 border-2 border-gray-300 px-3 py-2 rounded-2xl outline-none focus:border-green-500">
+
+  
+
+  
+
+
+         
 
         </div>
-        <div class="absolute  mt-15  flex flex-col md:flex-row   gap-2 mb-10 ml-62">
-          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
-            <h1 class="absolute left-0 top-0 mt-1 ml-2">Email</h1>
-          </button>
-          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
-            <h1 class="absolute left-0 top-0 mt-1 ml-2">Farm name</h1>
-          </button>
-        </div>
-        <div class=" mr-80  absolute mt-36 ml-62">
-          <button class="bg-green-500 px-8 py-4 rounded space-x-2">
-            <span>submit</span>
-            <span><i class="fa-solid fa-comment-dots"></i></span></button>
-
         </div>
       </div>
 
@@ -562,8 +676,11 @@
 
     </div>
   </div>
-  
-   <!-- Footer -->
+
+
+    
+       
+  <!-- Footer -->
   <footer
     class="bg-green-600 text-white pt-24 pb-10 px-10"
     style="clip-path: polygon(
@@ -582,7 +699,7 @@
     );">
 
     <!-- Footer Container -->
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ">
 
       <!-- Column 1 -->
       <div>
@@ -694,6 +811,11 @@
 
 
 
+
+
+
+
+  
 
 
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>

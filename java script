@@ -1,7 +1,10 @@
-const btn = document.getElementById("menu-btn");
-const menu = document.getElementById("menu");
 
 
-btn.addEventListener("click", () => {
-  menu.classList.toggle("hidden");
-});
+const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    menuBtn.addEventListener("click", () => {
+
+      mobileMenu.classList.toggle("hidden");
+
+    });
