@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="./index.css">
+
+  <!-- Font Awesome Free CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>Document</title>
+</head>
+
+<body class="bg-white">
+<!------navbar-->
+  <nav class="shadow-md mb-10">
+    <div class="max-w-7xl mx-auto px-6 ">
+
+      <div class="flex justify-between items-center h-16">
+
+
+        <div class="text-sm font-bold text-gray-800 ">
+          PIGFARM
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex  space-x-8 items-center">
+          <a href="#" class="text-gray-600 hover:text-black">Home</a>
+          <a href="#" class="text-gray-600 hover:text-black">About</a>
+          <a href="#" class="text-gray-600 hover:text-black">Accommodation</a>
+          <a href="#" class="text-gray-600 hover:text-black">Farm Tours</a>
+          <a href="#" class="text-gray-600 hover:text-black">Contact Us</a>
+          <a href="#" class="text-gray-600 hover:text-black">Gallery</a>
+
+
+        </div>
+
+
+
+        <!-- Hamburger Button -->
+        <div class="block md:hidden ">
+          <button id="menu-btn" class="flex flex-col space-y-1 ">
+            <span class="w-6 h-0.5 bg-black"></span>
+            <span class="w-6 h-0.5 bg-black"></span>
+            <span class="w-6 h-0.5 bg-black"></span>
+          </button>
+        </div>
+        <button class="bg-green-600 px-8 py-4 rounded-2xl mr-2 ">
+          <div class="flex space-x-4"><span> <a href="#" class="text-gray-600 hover:text-black">
+                book now </a></span>
+            <span><i class="fa-solid fa-bag-shopping"></i></span>
+          </div>
+        </button>
+
+
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="menu" class="hidden md:hidden px-6 pb-4">
+      <a href="#Home" class="block py-2 text-gray-600">Home</a>
+      <a href="#project" class="block py-2 text-gray-600">About</a>
+      <a href="#contact" class="block py-2 text-gray-600">Accomodation</a>
+      <a href="#contact" class="block py-2 text-gray-600">Farm Tours</a>
+      <a href="#contact" class="block py-2 text-gray-600">contact us</a>
+      <a href="#contact" class="block py-2 text-gray-600">Gallery</a>
+
+
+    </div>
+
+
+  </nav>
+  <!-----hero page-->
+  <div class="max-w-7xl mx-auto px-6 mb-40">
+    <div class="flex flex-col md:flex-row justify-between items-center space-y-6 ">
+      <div>
+        <h1 class="text-center mr-2">Pig farming contributes greatly to the<br> economy by supplying pork <br>to markets, restaurants, and food<br>
+          industries.
+          It also creates business <br>opportunities for farmers and meat<br> sellers.
+          With proper care and modern <br>farming methods, pig farming <br>can be a profitable and sustainable<br> agricultural
+          business.</h1>
+        <div class="mt-10 space-x-2 mr-2">
+          <button class="bg-green-600 px-6 py-4 rounded-2xl ">
+            
+              <span> <a href="#" class="text-gray-600 hover:text-black">
+                  book now </a></span>
+              <span><i class="fa-solid fa-bag-shopping"></i></span>
+            
+          </button>
+          <button class="bg-transparent border border-green-600  px-6 py-4 rounded-2xl"> <a href="#"
+              class="text-gray-600 hover:text-black">
+              Learn more</a></button>
+        </div>
+      </div>
+
+      <div class="mr-4" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );"><img src="./img/download (5).jfif"></div>
+    </div>
+
+  </div>
+  <!---hero page 2-->
+  <div class="h-100 bg-[url('/img/veronica-white-ZuixmDWAHq8-unsplash.jpg')] bg-cover relative bg-center mb-10 w-full" 
+    >
+    <div class="max-w-7xl mx-auto px-6  mb-8    ">
+      <div class="flex  justify-between items-center mr-4">
+
+        <div class=" bg-green-400 h-50 w-50 relative flex justify-center items-center -mt-20 " style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 100%,
+      85% 88%,
+      70% 100%,
+      55% 88%,
+      40% 100%,
+      25% 88%,
+      10% 100%,
+      0% 88%,
+      0% 15%
+    );">
+
+
+
+          <h1> visit our pig farm</h1>
+        </div>
+
+        <div class=" bg-green-200 h-50 w-50 relative flex justify-center items-center -mt-20 " style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+
+          <h1>See our pigs</h1>
+        </div>
+        <div class=" bg-green-400 h-50 w-50 relative flex justify-center items-center -mt-20" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+
+          <h1>Talk about our pigs</h1>
+        </div>
+        <div class=" bg-green-200 h-50 w-50 relative flex justify-center items-center -mt-20" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+
+          <h1>Better suggestions</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-col  justify-center items-center ">
+      <h1 class="text-xl mb-2 text-center mr-4">ABOUT US</h1>
+      <p class="text-white text-center mr-4 ">Welcome to our pig farm, where quality<br> livestock farming meets
+        dedication and care.<br>  Our farm is committed
+        to raising healthy<br>  pigs in a clean, safe, and well-managed environment. We take pride in providing<br> 
+        high-quality pork products while<br>  maintaining excellent farming practices.<br> 
+        Thank you for visiting our pig farm.
+      </p>
+    </div>
+  </div>
+
+  <!------what we offer-->
+  <div class="flex justify-center items-center mb-8 ">
+    <h1 class="text-center text-2xl mr-4">what we offer to you</h1>
+  </div>
+  <!----first set of cards-->
+  <div class="max-w-7xl mx-auto px-6 mb-4">
+
+
+    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4">
+      <div class="relative flex justify-center items-center">
+        <img src="./img/WhatsApp Image 2026-05-18 at 22.27.55.jpeg" class="h-50 w-75 " style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+        <h1 class="absolute  text-white font-extrabold">BROODING</h1>
+      </div>
+      <div class="relative flex justify-center items-center"><img
+          src="./img/Animal Feed_ What Are the 6 Nutrients Animals Need_.jfif" class="h-50 w-75" style="clip-path: polygon(
+      0% 10%,
+      5% 0%,
+      12% 8%,
+      20% 0%,
+      30% 10%,
+      40% 2%,
+      50% 12%,
+      60% 0%,
+      72% 10%,
+      84% 2%,
+      92% 8%,
+      100% 0%,
+      100% 75%,
+      78% 100%,
+      0% 100%
+    );">
+        <h1 class="absolute  text-white font-extrabold">Feed Management</h1>
+      </div>
+      <div class="relative flex justify-center items-center"><img src="./img/WhatsApp Image 2026-05-17 at 22.37.53.jpeg"
+          class="h-50 w-75" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+        <h1 class="absolute  text-white font-extrabold">Growers looking good</h1>
+      </div>
+      <div class="relative flex justify-center items-center"><img
+          src="./img/Improve Customer Trust Using Smart Sales Questions.jfif" class="h-50 w-75" style="clip-path: polygon(
+      0% 10%,
+      5% 0%,
+      12% 8%,
+      20% 0%,
+      30% 10%,
+      40% 2%,
+      50% 12%,
+      60% 0%,
+      72% 10%,
+      84% 2%,
+      92% 8%,
+      100% 0%,
+      100% 75%,
+      78% 100%,
+      0% 100%
+    );">
+        <h1 class="absolute  text-white font-extrabold">consultation</h1>
+      </div>
+
+    </div>
+  </div>
+
+  <!-------second set of cards-->
+  <div class="max-w-7xl mx-auto px-6 mb-10">
+
+    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4">
+      <div class="relative flex justify-center items-center"><img src="./img/Criadero de cerdos.jfif" class="h-50 w-75"
+          style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+        <h1 class="absolute  text-white font-extrabold">pen house</h1>
+      </div>
+      <div class="relative flex justify-center items-center"><img src="./img/Growers looking good.jfif"
+          class="h-50 w-75" style="clip-path: polygon(
+      0% 10%,
+      5% 0%,
+      12% 8%,
+      20% 0%,
+      30% 10%,
+      40% 2%,
+      50% 12%,
+      60% 0%,
+      72% 10%,
+      84% 2%,
+      92% 8%,
+      100% 0%,
+      100% 75%,
+      78% 100%,
+      0% 100%
+    );">
+        <h1 class="absolute  text-white font-extrabold">another pen house design</h1>
+      </div>
+      <div class="relative flex justify-center items-center"><img src="./img/Pork Hamonado.jfif" class="h-50 w-75"
+          style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+        <h1 class="absolute  text-white font-extrabold">pork meat</h1>
+      </div>
+      <div class="relative flex justify-center items-center"><img src="./img/WhatsApp Image 2026-05-17 at 22.37.54.jpeg"
+          class="h-50 w-75" style="clip-path: polygon(
+      0% 10%,
+      5% 0%,
+      12% 8%,
+      20% 0%,
+      30% 10%,
+      40% 2%,
+      50% 12%,
+      60% 0%,
+      72% 10%,
+      84% 2%,
+      92% 8%,
+      100% 0%,
+      100% 75%,
+      78% 100%,
+      0% 100%
+    );">
+        <h1 class="absolute text-white font-extrabold">Ready for sale</h1>
+      </div>
+
+    </div>
+  </div>
+  <!------recent happenings-->
+  <div class="flex flex-col justify-center items-center mb-10">
+    <h1 class="text-xl mr-4">RECENTLY FARM TOUR</h1>
+    <p class="mr-4">We invite you to come and pay us a visit.</p>
+  </div>
+  <!-------third set of cards-->
+  <div class="max-w-7xl mx-auto px-6 mb-4">
+
+    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4 ">
+      <div><img src="./img/download (6).jfif" class="h-100 w-100 mb-10" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+        <h1 class="font-extrabold text-xl text-green-400">chiemeka farms ltd</h1>
+        <p>you can visit our farm for recreational purposes.</p>
+        <a href="">
+          <p>learn more <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+      </div>
+      <div>
+        <img src="./img/Farm.jfif" class="h-100 w-100 mb-10" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+        <h1 class="font-extrabold text-xl text-green-400 ">chiemeka farms ltd</h1>
+        <p>you can visit our farm for business purposes.</p>
+        <a href="">
+          <p>learn more <i class="fa-solid fa-arrow-right"></i></p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <!-------two arrows-->
+  <div class="flex justify-center items-center space-x-6 mb-10 mr-4">
+    <i class="fa-solid fa-circle-arrow-right text-5xl"></i>
+    <i class="fa-solid fa-circle-arrow-left text-5xl"></i>
+  </div>
+  <!------Gallery room-->
+  <div class="flex flex-col justify-center items-center mb-6">
+    <h1 class="text-xl mr-4">Our Gallery Room</h1>
+  </div>
+  <!------fourth sets of cards-->
+  <div class="max-w-7xl mx-auto px-6 ">
+
+    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4">
+      <div><img src="./img/pig.jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%,
+      0% 15%
+    );">
+      </div>
+      <div>
+        <img src="./img/download (7).jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 80%,
+      80% 100%,
+      0% 100%
+    );">
+      </div>
+      <div>
+        <img src="./img/127930445663322014.jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%,
+      0% 15%
+    );">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 mb-4">
+
+    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 mr-4 ">
+      <div><img src="./img/farm animals.jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 80%,
+      80% 100%,
+      0% 100%
+    );">
+      </div>
+      <div>
+        <img src="./img/download (8).jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%,
+      0% 15%
+    );">
+      </div>
+      <div>
+        <img src="./img/download (9).jfif" class="h-100 w-75 mb-10" style="clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 80%,
+      80% 100%,
+      0% 100%
+    );">
+      </div>
+
+    </div>
+  </div>
+  <!----- empty boxes-->
+  <div class="flex justify-center items-center space-x-6 mb-10 mr-4">
+    <i class="fa-regular fa-square rounded"></i>
+    <i class="fa-regular fa-square rounded"></i>
+    <button class="bg-green-400 rounded px-3 py-2"> </button>
+  </div>
+
+  <!------fifth card-->
+  <div class="max-w-7xl mx-auto px-6 mb-16 ">
+
+    <div class="flex justify-between flex-col md:flex-row items-center space-y-6 ">
+      <div class="h-120 w-100 mb-10 bg-green-600 relative flex justify-center items-center " style="clip-path: polygon(
+      15% 0%,
+      100% 0%,
+      100% 80%,
+      90% 100%,
+      75% 88%,
+      60% 100%,
+      45% 88%,
+      30% 100%,
+      15% 88%,
+      0% 100%,
+      0% 15%
+    );">
+        <h1 class="-mt-80 font-extrabold text-white text-center text-2xl absolute mr-4">PIG FARM</h1>
+        <p class="text-center absolute -mt-60 mr-4">Here we are waiting for you to talk!<br>Let's start with us.</p>
+        <div
+          class="bg-transparent border border-white h-40 w-60 absolute rounded flex flex-col justify-center items-center mr-4">
+          <div class="space-x-4">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span>08169270270</span>
+          </div>
+          <div class="space-x-2">
+            <span><i class="fa-solid fa-envelope"></i> </span>
+            <span>chimnaonuel@gmail.com</span>
+          </div>
+          <div class="space-x-4">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <span>lowcost</span>
+          </div>
+        </div>
+      </div>
+      <div class="h-120 w-200 mb-10 bg-white shadow-2xl relative ">
+        <h1 class="font-bold text-green-500  text-2xl absolute mb-20 ml-62  ">feeling stressed?</h1>
+        <p class="mt-10 mb-10 ml-62">Get in touch now<br> and we can arrange a no<br> obligation free chat.</p>
+        <div class="absolute ml-62 -mt-5 flex flex-col md:flex-row  gap-2 mb-10">
+          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
+            <h1 class="absolute left-0 top-0 mt-1 ml-2">Name</h1>
+          </button>
+          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
+            <h1 class="absolute left-0 top-0 mt-1 ml-2">phone</h1>
+          </button>
+
+        </div>
+        <div class="absolute  mt-15  flex flex-col md:flex-row   gap-2 mb-10 ml-62">
+          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
+            <h1 class="absolute left-0 top-0 mt-1 ml-2">Email</h1>
+          </button>
+          <button class="bg-transparent border border-black px-28 py-4 rounded relative">
+            <h1 class="absolute left-0 top-0 mt-1 ml-2">Farm name</h1>
+          </button>
+        </div>
+        <div class=" mr-80  absolute mt-36 ml-62">
+          <button class="bg-green-500 px-8 py-4 rounded space-x-2">
+            <span>submit</span>
+            <span><i class="fa-solid fa-comment-dots"></i></span></button>
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  
+   <!-- Footer -->
+  <footer
+    class="bg-green-600 text-white pt-24 pb-10 px-10"
+    style="clip-path: polygon(
+      0% 8%,
+      8% 0%,
+      18% 10%,
+      30% 0%,
+      42% 12%,
+      55% 2%,
+      68% 14%,
+      80% 4%,
+      92% 12%,
+      100% 0%,
+      100% 100%,
+      0% 100%
+    );">
+
+    <!-- Footer Container -->
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+      <!-- Column 1 -->
+      <div>
+
+        <h1 class="text-2xl text-black font-bold mb-5">
+          Pig Farm
+        </h1>
+
+        <p class="text-black leading-7">
+          make a connection <br>with us<br> and get the best.
+        </p>
+
+      </div>
+
+      <!-- Column 2 -->
+      <div>
+
+        <h2 class="text-2xl font-semibold mb-5 text-black">
+          Explore
+        </h2>
+
+        <ul class="space-y-3 text-black">
+
+          <li><a href="" class="hover:text-white">Home</a></li>
+            <li><a href="" class="hover:text-white">About</a></li>
+            <li><a href="" class="hover:text-white">Accomodation</a></li>
+            <li><a href="" class="hover:text-white">Farm Tours</a></li>
+            <li><a href="" class="hover:text-white">Gallery</a></li>
+
+        </ul>
+
+      </div>
+
+      <!-- Column 3 -->
+      <div>
+
+        <h2 class="text-2xl font-semibold mb-5 text-black">
+          Services
+        </h2>
+
+        <ul class="space-y-3 text-black">
+
+             
+            <div class="flex space-x-2"><span> <i class="fa-solid fa-angles-right"></i></span><span>
+                <li>Diary</li>
+              </span> </div>
+            <div class="flex space-x-2"><span> <i class="fa-solid fa-angles-right"></i></span> <span>
+                <li>Arable</li>
+              </span></div>
+            <div class="flex space-x-2"> <span> <i class="fa-solid fa-angles-right"></i></span> <span>
+                <li>pork</li>
+              </span></div>
+            <div class="flex space-x-2"><span> <i class="fa-solid fa-angles-right"></i></span><span>
+                <li>maintenance</li>
+              </span></div>
+          
+
+        </ul>
+
+      </div>
+
+      <!-- Column 4 -->
+      <div>
+
+        <h2 class="text-2xl font-semibold text-black  mb-5">
+          contact
+        </h2>
+
+        <ul class="text-black">
+            <div class="flex space-x-2"> <span><i class="fa-solid fa-phone"></i> </span><span>
+                <li>08169270270</li>
+              </span></div>
+            <div class="flex space-x-2"><span><i class="fa-solid fa-envelope"></i></span> <span>
+                <li>chimnaonuel@gmail.com</li>
+              </span> </div>
+            <div class="flex space-x-2"><span><i class="fa-solid fa-location-dot"></i></span><span>
+                <li>lowcost</li>
+              </span></div>
+          </ul>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <!----bottom footer-->
+   <div class="border-t bg-green-200">
+    <div class=" max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center h-26">
+        <div class="mr-2">
+          <h1>Terms and Condition</h1>
+        </div>
+        <div>
+          <h1>copyright@pigfarm</h1>
+        </div>
+        <div class=" space-x-4">
+          <a href="https://www.instagram.com/adimchinaobi9/?__pwa=1#">
+            <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/2348169270270"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/emmanuel-adimchinaobi"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="tel:+2348067449346"><i class="fa-solid fa-phone"></i></a>
+          <a href="mailto:chimnaonuel@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+
+    AOS.init();
+
+  </script>
+  <script src="./java script"></script>
+
+
+</body>
+
+</html>

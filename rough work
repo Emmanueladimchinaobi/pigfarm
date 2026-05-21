@@ -1,0 +1,108 @@
+<footer class="bg-green-500 h-150" 
+style="clip-path: polygon(
+    0% 12%,
+    8% 0%,
+    18% 10%,
+    30% 0%,
+    42% 12%,
+    55% 2%,
+    68% 14%,
+    80% 4%,
+    92% 12%,
+    100% 0%,
+    100% 100%,
+    0% 100%
+  );">
+    <div class="max-w-7xl mx-auto px-6 ">
+      <div class="flex justify-between flex-col md:flex-row  items-center space-y-2 space-x-2  ">
+        <div class="flex flex-col justify-center items-center mt-10">
+          <h1 class="font-extrabold ">pig farm</h1>
+          <p class="">make a connection <br>with us<br> and get the best.</p>
+        </div>
+        <div class="flex flex-col mt-14 justify-center items-center mt-10">
+          <h1 class="font-extrabold ">Explore</h1>
+          <ul class="">
+            <li><a href="" class="hover:text-white">Home</a></li>
+            <li><a href="" class="hover:text-white">About</a></li>
+            <li><a href="" class="hover:text-white">Accomodation</a></li>
+            <li><a href="" class="hover:text-white">Farm Tours</a></li>
+            <li><a href="" class="hover:text-white">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="flex flex-col mt-8 justify-center items-center">
+          <h1 class="font-extrabold ">Services</h1>
+          <ul class="">
+            <div class="flex space-x-2"><span> <i class="fa-solid fa-angles-right"></i></span><span>
+                <li>Diary</li>
+              </span> </div>
+            <div class="flex space-x-2"><span> <i class="fa-solid fa-angles-right"></i></span> <span>
+                <li>Arable</li>
+              </span></div>
+            <div class="flex space-x-2"> <span> <i class="fa-solid fa-angles-right"></i></span> <span>
+                <li>pork</li>
+              </span></div>
+            <div class="flex space-x-2"><span> <i class="fa-solid fa-angles-right"></i></span><span>
+                <li>maintenance</li>
+              </span></div>
+          </ul>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <h1 class="font-extrabold -mt-2 ">contact</h1>
+          <ul class="">
+            <div class="flex space-x-2"> <span><i class="fa-solid fa-phone"></i> </span><span>
+                <li>08169270270</li>
+              </span></div>
+            <div class="flex space-x-2"><span><i class="fa-solid fa-envelope"></i></span> <span>
+                <li>chimnaonuel@gmail.com</li>
+              </span> </div>
+            <div class="flex space-x-2"><span><i class="fa-solid fa-location-dot"></i></span><span>
+                <li>lowcost</li>
+              </span></div>
+          </ul>
+        </div>
+  </footer>
+  <div class="border-t bg-green-200">
+    <div class=" max-w-7xl mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center h-26">
+        <div class="mr-2">
+          <h1>Terms and Condition</h1>
+        </div>
+        <div>
+          <h1>copyright@pigfarm</h1>
+        </div>
+        <div class=" space-x-4">
+          <a href="https://www.instagram.com/adimchinaobi9/?__pwa=1#">
+            <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/2348169270270"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/emmanuel-adimchinaobi"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="tel:+2348067449346"><i class="fa-solid fa-phone"></i></a>
+          <a href="mailto:chimnaonuel@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   <!-- Bottom Footer -->
+    <div class="border-t border-gray-800 mt-12 pt-6 text-center text-gray-500">
+
+       <div class=" max-w-7xl mx-auto px-6 ">
+      <div class="flex flex-col md:flex-row justify-between items-center h-26 text-black">
+        <div class="mr-2">
+          <h1>Terms and Condition</h1>
+        </div>
+        <div>
+          <h1>copyright@pigfarm</h1>
+        </div>
+        <div class=" space-x-4">
+          <a href="https://www.instagram.com/adimchinaobi9/?__pwa=1#">
+            <i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/2348169270270"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/emmanuel-adimchinaobi"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="tel:+2348067449346"><i class="fa-solid fa-phone"></i></a>
+          <a href="mailto:chimnaonuel@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+
+    </div>
