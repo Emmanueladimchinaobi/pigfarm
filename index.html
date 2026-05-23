@@ -13,123 +13,101 @@
   <title>Document</title>
 </head>
 
-<body class="bg-white">
+<body>
 
-    <!-- Navbar -->
-  <nav class="bg-green-600 text-white px-6 py-5 mb-5">
-
-    <div class="max-w-7xl mx-auto flex items-center justify-between  ">
-
+   <nav class="shadow-md mb-10">
+  <div class="max-w-7xl mx-auto px-6">
+    
+    <div class="flex justify-between items-center h-20">
       
-      <div class="text-3xl font-bold">
-
-        PigFarm
-
+      
+      <div class="text-xl font-bold text-gray-800">
+        PIG FARM
       </div>
 
       <!-- Desktop Menu -->
-      <ul class="hidden lg:flex items-center gap-8">
-
-        <li>
+      <div class="hidden md:flex  space-x-4 items-center">
+      
           <a href="#" class="hover:text-green-400">
             Home
           </a>
-        </li>
+        
 
-        <li>
+        
           <a href="#" class="hover:text-green-400">
             About
           </a>
-        </li>
+        
 
-        <li>
+        
           <a href="#" class="hover:text-green-400">
-            Acoomodation
+            Accomodation
           </a>
-        </li>
+        
 
-        <li>
+        
           <a href="#" class="hover:text-green-400">
             Farm Tours
           </a>
-        </li>
+        
 
-        <li>
+        
           <a href="#" class="hover:text-green-400">
             Contact us
           </a>
-        </li>
+        
 
-        <li>
+        
           <a href="#" class="hover:text-green-400">
             Gallery
           </a>
-        </li>
-
-      </ul>
-
+        
+       
+      </div>
+       
      
 
-        <!-- Hamburger Menu -->
-        <button
-          id="menu-btn"
-          class="lg:hidden flex flex-col gap-1">
-
-          <span class="w-7 h-1 bg-white rounded"></span>
-          <span class="w-7 h-1 bg-white rounded"></span>
-          <span class="w-7 h-1 bg-white rounded"></span>
-
+      <!-- Hamburger Button -->
+        <div class="block md:hidden ">
+        <button id="menu-btn" class="flex flex-col space-y-1 ">
+          <span class="w-6 h-0.5 bg-black"></span>
+          <span class="w-6 h-0.5 bg-black"></span>
+          <span class="w-6 h-0.5 bg-black"></span>
         </button>
-         <!-- Right Side -->
+      </div>
+      
+        
+           <!-- Right Side -->
       <div class="flex items-center gap-4">
 
         <!-- Button -->
-        <button class="bg-green-200 px-6 py-4 rounded-2xl  ">
-          <div class="flex space-x-2"><span> <a href="#" class="text-gray-600 hover:text-black">
+        <button class="bg-green-200 px-4 py-4 rounded-2xl  ">
+          <div><span> <a href="#" class="text-gray-600 hover:text-black">
                 book now </a></span>
             <span><i class="fa-solid fa-bag-shopping"></i></span>
           </div>
         </button>
 
       </div>
+       
 
     </div>
+  </div>
 
-    <!-- Mobile Menu -->
-    <div
-      id="mobile-menu"
-      class="hidden lg:hidden mt-6 flex flex-col gap-5 bg-green-600 p-6 rounded-2xl">
-
-      <a href="#" class="hover:text-green-400">
-        Home
-      </a>
-
-      <a href="#" class="hover:text-green-400">
-        About
-      </a>
-
-      <a href="#" class="hover:text-green-400">
-        Acoomodation
-      </a>
-
-      <a href="#" class="hover:text-green-400">
-        Farm Tours
-      </a>
-
-      <a href="#" class="hover:text-green-400">
-        contact us
-      </a>
-
-      <a href="#" class="hover:text-green-400">
-        Gallery
-      </a>
-
-      
-
-    </div>
-
-  </nav>
+  <!-- Mobile Menu -->
+  <div id="menu" class="hidden md:hidden px-6 pb-4">
+    <a href="#Home" class="block py-2 text-gray-600">Home</a>
+    <a href="#project" class="block py-2 text-gray-600">About</a>
+    <a href="#contact" class="block py-2 text-gray-600">Accomodation</a>
+    <a href="#contact" class="block py-2 text-gray-600">farm tours</a>
+    <a href="#contact" class="block py-2 text-gray-600">Contact us</a>
+    <a href="#contact" class="block py-2 text-gray-600">Gallery</a>
+    
+   
+  </div>
   
+   
+</nav>
 
 
 
